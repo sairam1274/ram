@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 
-
+gem 'rails_12factor'
 group :production do
 	gem 'pg'
 end
@@ -40,3 +40,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+ruby '2.0.0'
